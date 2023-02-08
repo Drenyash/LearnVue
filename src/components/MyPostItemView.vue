@@ -1,0 +1,1 @@
+<template>  <my-breadcrumbs />  <h1>Страница поста с ID: {{ $route.params.id }}</h1></template><script>import MyBreadcrumbs from "@/components/UI/Breadcrumbs.vue";export default {  name: 'my-post-item-view',  components: {MyBreadcrumbs}}</script><style lang="scss" scoped></style>
